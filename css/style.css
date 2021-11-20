@@ -1,0 +1,90 @@
+.main-div {
+
+	display: inline-block;
+	position: relative;
+	
+}
+
+.moon  {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 150px;
+	animation: moon 5s infinite;
+
+}
+
+@keyframes moon {
+	0% {transform: rotate(-15deg);}
+	50% {transform: rotate(45deg);}
+	100% {transform: rotate(-15deg);}
+
+} 
+
+
+.popcorn {
+	position: absolute;
+	width: 15px;
+	top: 49%;
+	left: 22%;
+	animation: popcorn 0.5s linear infinite;
+
+}
+
+@keyframes popcorn {
+	0% {left: 22%;}
+	50% {left: 18.5%; top: 45%;}
+	100% {left: 15%; top: 49%;}
+
+} 
+
+.haha {
+	position: absolute;
+	width: 150px;
+	top: 33%;
+	right: 5%;
+	animation: haha 2s linear infinite;
+
+}
+
+@keyframes haha {
+	0% {transform: rotate(-5deg); transform-origin: bottom left;}
+	50% {transform: rotate(15deg); transform-origin: bottom left;}
+	100% {transform: rotate(-5deg); transform-origin: bottom left;}
+} 
+
+
+.background {
+	height: 600px;
+	background: skyblue;
+
+}
+
+.movie {
+
+}
+
+.screen {
+	position: absolute;
+	top: 15%;
+	left: 27%;
+	height: 192px;
+	width: 380px;
+}
+
+
+.run {
+	top: 32%;
+	left: 57%;
+	height: 100px;
+	width: 150px;
+	animation: run 5s infinite;
+
+}
+
+
+@keyframes run {
+	to {left: 27%;}
+	from {left: 57%;}
+	
+} 
