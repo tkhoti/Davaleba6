@@ -71,17 +71,18 @@
 
 
 .run {
-	top: 32%;
-	left: 57%;
+	position: absolute;	
+	top: 30%;
+	left: 56%;
 	height: 100px;
 	width: 150px;
-	animation: run 5s infinite;
+	animation: run 3s infinite  ease-in-out alternate;
 
 }
 
 
 @keyframes run {
 	to {left: 27%;}
-	from {left: 57%;}
+	from {left: 56%;}
 	
 } 
